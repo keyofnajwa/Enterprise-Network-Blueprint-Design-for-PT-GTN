@@ -7,6 +7,11 @@
 
 Dokumentasi ini menyajikan arsitektur jaringan terintegrasi yang dirancang khusus untuk memenuhi seluruh spesifikasi teknis dan kebutuhan operasional dari **Sarah Lockhart** selaku perwakilan manajemen **PT Global Tekno Nusantara (PT GTN)**. 
 
+<img width="1193" height="558" alt="TOPOLOGY 3 FLOOR  drawio (1)" src="https://github.com/user-attachments/assets/9b1e6a57-737a-4b53-8b2d-0f1f0fa183b4" />
+<br><br>
+
+
+
 Proyek ini mengintegrasikan pembagian wilayah logis korporat 3 lantai menggunakan metode **VLSM (Variable Length Subnet Mask)**, penyebaran parameter **DHCP Pool** terpusat dari Switch Core yang berelasi dengan IP Gateway Router Utama, integrasi **Trunking Lintas Lantai**, implementasi translasi alamat **NAT (Inside/Outside)** via jalur Serial ISP, konfigurasi **Wireless WPA2-PSK** menggunakan perangkat **Smartphone**, serta pengamanan ketat **Extended Access Control List (ACL)** untuk mengisolasi divisi finansial tanpa memutus akses internet.
 
 ### 🏢 Pemenuhan Kebutuhan Klien (Sarah Lockhart - PT GTN):
